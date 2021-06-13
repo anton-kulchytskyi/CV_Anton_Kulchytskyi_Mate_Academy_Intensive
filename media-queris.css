@@ -1,0 +1,32 @@
+@media screen and (max-width: 770px) {
+	.wrapper {
+		width: 98%;
+	}
+}
+@media screen and (max-width: 550px) {
+	header, main, footer {
+		padding: 1em 0.5em;
+	}
+	header {
+		position: relative;
+	}
+	.about__text {
+		width: 100%;
+	}
+	.about__text p {
+		font-size: 0.8em;
+	}
+	.about__photo {
+		display: none;
+	}
+	section {
+		flex-direction: column;
+	}
+	.main__left, .main__right {
+		width: 100%;
+	}
+	footer p {
+		font-size: 0.625em;
+  	line-height: 1.2em;
+	}
+}

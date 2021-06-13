@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;  
+  background-color: #bcb3b380;
+}
+.wrapper {
+  width: 65%;
+  margin: 0.625em auto;
+  border-radius: 1em;
+  background-color: #984343;
+  box-shadow: inset 50px 50px 100px #723232,
+              inset -50px -50px 100px #be5454;
+}
+
+/* Header */
+
+header {
+  color: #fff8dc;
+  padding: 1em 3em;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__text {
+  width: 65%;
+}
+h3 {
+  margin: 1em 0;
+}
+.about__photo {
+  width: 30%;
+}
+.about__photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding: 2em;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 1em;
+}
+.contact a {
+  color: #fff8dc;
+}
+.contact a:hover {
+  transform: scale(1.5);
+}
+
+/* Header end */
+/* Main content */
+main {
+  padding: 1em 3em;
+  background-color: #fff8dc;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+
+/* Skills & Tools */
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Education & Experience */
+
+.main__left {
+  width: 20%;
+}
+.main__right {
+  width: 75%;
+}
+.main__left h2 {
+  color: #984343;
+}
+.description {
+  margin-bottom: 1em;
+  padding-left: 1em;
+  border-left: 0.1em dashed #967272;
+}
+.description h5 {
+  margin: 1em 0;
+}
+.description li {
+  list-style: none;
+}
+
+/* Main content end*/
+/* Footer */
+
+footer {
+  color: #fff8dc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 3em;
+}
+footer p {
+  text-align: center;
+}
+footer a {
+  color: #fff8dc;
+  text-decoration: none;
+}
