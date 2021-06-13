@@ -33,8 +33,18 @@ header {
 .about__text {
   width: 65%;
 }
-h3 {
+.about__text h3 {
   margin: 1em 0;
+}
+.about__text p {
+  text-indent: 25px;
+}
+.link {
+  color: #fff8dc;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
 }
 .about__photo {
   width: 30%;
