@@ -41,10 +41,12 @@ header {
 }
 .link {
   color: #fff8dc;
-  text-decoration: none;
 }
-.link:hover {
-  text-decoration: underline;
+.link i {
+  width: 16px;
+}
+.link i::before {
+  margin-left: -24px;
 }
 .about__photo {
   width: 30%;
